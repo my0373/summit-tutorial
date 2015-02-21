@@ -6,6 +6,7 @@ class Person
   attr_accessor :nationality
   attr_accessor :email
   attr_accessor :mail_address
+  attr_accessor :name
   
     
   def initialize(first_name,
@@ -22,5 +23,6 @@ class Person
     @nationality  = nationality
     @email        = email
     @mail_address = mail_address
+    @name         = sprintf("%s %s",@first_name,@second_name)
   end
 end
