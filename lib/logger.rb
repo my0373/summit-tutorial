@@ -22,7 +22,7 @@ class SummitLogger
         chatter_level_text = "Unknown"
     end
 
-    puts "#{chatter_level_text}:"
+    puts "test"
 
 
   end
